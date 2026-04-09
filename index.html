@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Мой сайт</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      text-align: center;
+    }
+
+    header {
+      background: #333;
+      color: white;
+      padding: 20px;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      background: #007BFF;
+      color: white;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Привет 👋</h1>
+  <p>Это мой первый одностраничный сайт</p>
+</header>
+
+<section>
+  <h2>Обо мне</h2>
+  <p>Тут будет твой текст</p>
+  <button onclick="showMessage()">Нажми меня</button>
+</section>
+
+<script>
+  function showMessage() {
+    alert("Сайт работает 🚀");
+  }
+</script>
+<script src="https://app.rnova.org/widgets" rel="preload" as="script"></script>
+<div id="rnova-a_form"></div>
+
+</body>
+</html>
